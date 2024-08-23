@@ -1,6 +1,6 @@
 # Projeto 2 - Estudo de Caso: ADempiere - Análise e Proposta de Melhoria
-# Matheus Kodi Y. RA 2503557 | Maurício Júnior
-# Código do sistema análisado: 
+### Matheus Kodi Y. RA 2503557 | Maurício Júnior
+### Código do sistema análisado: https://github.com/adempiere/adempiere
 
 # Introdução
 O projeto faz parte da disciplina de Arquitetura de Software administrada pelo professor Diego Addan.
