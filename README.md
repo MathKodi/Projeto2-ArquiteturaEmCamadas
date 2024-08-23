@@ -22,6 +22,7 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
   - Principais Processos:
     - Renderização de páginas web e formulários.
     - Manipulação de eventos do usuário (cliques, submissão de formulários).
+  
 2.1.2 Camada de Lógica de Negócios (Business Logic ou Controlador)
   - Responsabilidades: Contém toda a lógica de negócios da aplicação, incluindo regras empresariais, validações e processamento de dados.
   - Tecnologias Utilizadas:
@@ -30,6 +31,7 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
   - Principais Processos:
       - Gerenciamento de transações empresariais (ordens de venda, faturamento).
       - Aplicação de regras de negócios e políticas empresariais.
+  
 2.1.3 Camada de Persistência de Dados (Model)
   - Responsabilidades: Responsável por gerenciar o armazenamento e recuperação dos dados da aplicação.
   - Tecnologias Utilizadas:
