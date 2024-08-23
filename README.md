@@ -12,7 +12,7 @@ O ADempiere é um software de ERP (Enterprise Resource Planning) e CRM (Customer
 ## 2. Arquitetura do Sistema
 O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-Vista-Controlador (MVC). Essa arquitetura permite uma separação clara entre a interface do usuário, a lógica de negócios e o acesso aos dados, facilitando a manutenção e a escalabilidade do sistema.
 ### 2.1 Camadas da Arquitetura
-- 2.1.1 Camada de Apresentação (View)
+**2.1.1 Camada de Apresentação (View)**
   - Responsabilidades: Responsável pela interface do usuário, permitindo que o usuário interaja com o sistema.
   - Tecnologias Utilizadas:
     - Linguagem de Programação: Java, JavaScript.
@@ -22,7 +22,7 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
   - Principais Processos:
     - Renderização de páginas web e formulários.
     - Manipulação de eventos do usuário (cliques, submissão de formulários).
-- 2.1.2 Camada de Lógica de Negócios (Business Logic ou Controlador)
+**2.1.2 Camada de Lógica de Negócios (Business Logic ou Controlador)**
   - Responsabilidades: Contém toda a lógica de negócios da aplicação, incluindo regras empresariais, validações e processamento de dados.
   - Tecnologias Utilizadas:
     -  Linguagem de Programação: Java.
@@ -30,7 +30,7 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
   - Principais Processos:
       - Gerenciamento de transações empresariais (ordens de venda, faturamento).
       - Aplicação de regras de negócios e políticas empresariais.
-- 2.1.3 Camada de Persistência de Dados (Model)
+**2.1.3 Camada de Persistência de Dados (Model)**
   - Responsabilidades: Responsável por gerenciar o armazenamento e recuperação dos dados da aplicação.
   - Tecnologias Utilizadas:
     - Banco de Dados: PostgreSQL, Oracle, MySQL
@@ -41,27 +41,27 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
     - Mapeamento objeto-relacional.
 
 ### 2.2 Partes do Sistema
-- 2.2.1 Módulo de Contabilidade: 
+2.2.1 Módulo de Contabilidade: 
   - Gerencia todas as operações contábeis, incluindo lançamentos, balanços, e relatórios financeiros.
-- 2.2.2 Módulo de Gestão de Estoque:
+2.2.2 Módulo de Gestão de Estoque:
   - Controla o inventário, movimentação de produtos, ordens de compra e controle de estoque.
-- 2.2.3 Módulo de Vendas e Distribuição:
+2.2.3 Módulo de Vendas e Distribuição:
   - Gerencia o ciclo de vida completo de uma venda, desde a cotação até a entrega.
-- 2.2.4 Módulo de Compras:
+2.2.4 Módulo de Compras:
   - Automatiza o processo de compras, gerenciamento de fornecedores e ordens de compra.
-- 2.2.5 Módulo de CRM:
+2.2.5 Módulo de CRM:
   - Gestão do relacionamento com o cliente, incluindo contatos, histórico de comunicação, e oportunidades de venda.
-- 2.2.6 Módulo de Manufatura:
+2.2.6 Módulo de Manufatura:
   - Gerencia a produção e os processos de manufatura, incluindo ordens de produção e planejamento de capacidade.
 
 ### 2.3 Padrões Arquiteturais
-- 2.3.1 MVC (Modelo-Vista-Controlador): 
+2.3.1 MVC (Modelo-Vista-Controlador): 
   - Separação clara entre a interface de usuário, lógica de negócios e a camada de persistência de dados.
-- 2.3.2 DAO (Data Access Object):
+2.3.2 DAO (Data Access Object):
   - Abstração da camada de acesso a dados, facilitando a troca do banco de dados sem impacto no código de negócios.
-- 2.3.3 SOA (Service-Oriented Architecture):
+2.3.3 SOA (Service-Oriented Architecture):
   - O sistema é projetado para permitir integração com outros serviços e módulos de forma flexível.
-- 2.3.4 Camadas de Serviços: 
+2.3.4 Camadas de Serviços: 
   - Uso de EJBs para encapsular lógica de negócios em serviços reutilizáveis.
 
 ## 3. Escalabilidade e Performance
