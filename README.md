@@ -59,10 +59,13 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
 ### 2.3 Padrões Arquiteturais
 2.3.1 MVC (Modelo-Vista-Controlador): 
   - Separação clara entre a interface de usuário, lógica de negócios e a camada de persistência de dados.
+
 2.3.2 DAO (Data Access Object):
   - Abstração da camada de acesso a dados, facilitando a troca do banco de dados sem impacto no código de negócios.
+
 2.3.3 SOA (Service-Oriented Architecture):
   - O sistema é projetado para permitir integração com outros serviços e módulos de forma flexível.
+
 2.3.4 Camadas de Serviços: 
   - Uso de EJBs para encapsular lógica de negócios em serviços reutilizáveis.
 
