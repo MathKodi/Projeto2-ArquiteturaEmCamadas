@@ -45,14 +45,19 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
 ### 2.2 Partes do Sistema
 2.2.1 Módulo de Contabilidade: 
   - Gerencia todas as operações contábeis, incluindo lançamentos, balanços, e relatórios financeiros.
+
 2.2.2 Módulo de Gestão de Estoque:
   - Controla o inventário, movimentação de produtos, ordens de compra e controle de estoque.
+    
 2.2.3 Módulo de Vendas e Distribuição:
   - Gerencia o ciclo de vida completo de uma venda, desde a cotação até a entrega.
+    
 2.2.4 Módulo de Compras:
   - Automatiza o processo de compras, gerenciamento de fornecedores e ordens de compra.
+    
 2.2.5 Módulo de CRM:
   - Gestão do relacionamento com o cliente, incluindo contatos, histórico de comunicação, e oportunidades de venda.
+    
 2.2.6 Módulo de Manufatura:
   - Gerencia a produção e os processos de manufatura, incluindo ordens de produção e planejamento de capacidade.
 
