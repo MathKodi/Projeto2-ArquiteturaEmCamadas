@@ -61,6 +61,12 @@ O ADempiere é baseado em uma arquitetura em camadas que segue o padrão Modelo-
 2.2.6 Módulo de Manufatura:
   - Gerencia a produção e os processos de manufatura, incluindo ordens de produção e planejamento de capacidade.
 
+2.2.7 Módulo de Históricas Online:
+  - Permite a criação de múltiplos calendários personalizáveis pelos usuários, armazenando todas as informações e transações inseridas no sistema pelo tempo que a organização escolher.
+
+2.2.8 Módulo de Dados e Metadados: 
+  - Utiliza um Active Data Dictionary central, que gerencia definições de dados, métodos de exibição, regras de segurança e acesso, sendo sensível ao contexto e extensível pelo usuário para facilitar a personalização e extensão do aplicativo.
+
 ### 2.3 Padrões Arquiteturais
 2.3.1 MVC (Modelo-Vista-Controlador): 
   - Separação clara entre a interface de usuário, lógica de negócios e a camada de persistência de dados.
