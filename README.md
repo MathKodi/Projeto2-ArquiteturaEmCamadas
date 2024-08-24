@@ -172,7 +172,7 @@ Benefícios da Refatoração para Cloud-Native:
 ### 5.2 Repositório Github do ADempiere
   https://github.com/adempiere/adempiere
 ### 5.3 Site de Comunidade e Fóruns
-### 5.4 Fontes de Pesquisa de escalabilidade e perfomance
+### 5.4 Fontes de Pesquisa
   https://pubs.aip.org/aip/acp/article-abstract/2508/1/020040/2878857/A-framework-for-implementing-enterprise?redirectedFrom=fulltext
   https://link.springer.com/article/10.1007/s11227-022-04967-6
   https://aws.amazon.com/pt/blogs/architecture/data-caching-across-microservices-in-a-serverless-architecture/
