@@ -1,5 +1,5 @@
 # Projeto 2 - Estudo de Caso: ADempiere - Análise e Proposta de Melhoria
-### Matheus Kodi Y. RA 2503557 | Maurício Júnior
+### Matheus Kodi Y. RA 2503557 | Maurício Júnior Brito RA 2525321
 ### Código do sistema análisado: https://github.com/adempiere/adempiere
 
 ## Introdução
@@ -90,6 +90,8 @@ O ADempiere é projetado para suportar uma alta carga de usuários e transaçõe
   - Uso de caches para dados frequentemente acessados, reduzindo a carga no banco de dados.
 ### Pooling de Conexões:
   - Gerenciamento eficiente de conexões com o banco de dados para reduzir o tempo de espera e melhorar a performance.
+### Observabilidade: 
+  - Expandir a seção de monitoramento e logging para incluir práticas de observabilidade, que não apenas monitoram, mas também correlacionam métricas, logs e traces para uma visão holística do sistema, identificando problemas de performance em tempo real.
 
 ## 4. Propostas de Melhoria:
 ### 4.1 Migração para uma Arquitetura de Microserviços
@@ -109,6 +111,10 @@ Estratégia de Migração:
   4. Monitoramento e Logging Distribuído:
      - Monitoramento de Microserviços: Utilizar ferramentas como Prometheus e Grafana para monitorar a saúde dos microserviços e identificar rapidamente falhas ou gargalos.
      - Logging Centralizado: Implementar uma solução de logging centralizado, como ELK Stack (Elasticsearch, Logstash, Kibana) ou Fluentd, para consolidar logs de todos os microserviços, facilitando a depuração e a análise de problemas.
+   5. Orquestração de Fluxos de Trabalho:
+      - Para sistemas complexos, a orquestração de fluxos de trabalho entre microserviços pode ser essencial. Considere o uso de ferramentas como Apache Airflow ou Temporal para gerenciar dependências e execução de tarefas distribuídas.
+    6. Segurança e Compliance:
+       - Ao migrar para microserviços, é crucial considerar a segurança desde o início, implementando autenticação e autorização entre serviços e monitorando o compliance com regulamentos.
 
 Benefícios da Migração para Microserviços:
   - Escalabilidade Independente: Possibilita a escalabilidade de partes específicas da aplicação sem afetar outras, otimizando o uso de recursos.
@@ -152,6 +158,8 @@ Estratégia de Refatoração:
   4. Monitoramento e Logging Cloud-Native:
      - Monitoramento com CloudWatch ou Stackdriver: Utilizar serviços de monitoramento da nuvem para coletar métricas e criar alertas para eventos de desempenho e falhas.
      - Centralização de Logs: Configurar serviços de logging gerenciados para consolidar logs de diferentes serviços e facilitar a análise e a resolução de problemas.
+  5. Serverless Computing:
+     - Além da containerização, o uso de funções serverless para tarefas de menor duração pode reduzir custos e simplificar o escalonamento.
 
 Benefícios da Refatoração para Cloud-Native:
   - Elasticidade e Escalabilidade: Ajuste dinâmico de recursos com base na demanda, reduzindo custos e otimizando o uso de recursos.
@@ -164,3 +172,7 @@ Benefícios da Refatoração para Cloud-Native:
 ### 5.2 Repositório Github do ADempiere
   https://github.com/adempiere/adempiere
 ### 5.3 Site de Comunidade e Fóruns
+### 5.4 Fontes de Pesquisa de escalabilidade e perfomance
+  https://pubs.aip.org/aip/acp/article-abstract/2508/1/020040/2878857/A-framework-for-implementing-enterprise?redirectedFrom=fulltext
+  https://link.springer.com/article/10.1007/s11227-022-04967-6
+  https://aws.amazon.com/pt/blogs/architecture/data-caching-across-microservices-in-a-serverless-architecture/
